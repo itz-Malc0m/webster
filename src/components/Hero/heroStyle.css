@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700,500");
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.desktop-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  overflow: hidden;
+  padding: 1px 0;
+  width: 1440px;
+}
+
+
+
+.overlap-group1 {
+  height: 1162px;
+  margin-top: 2px;
+  position: relative;
+  width: 1654px;
+}
+
+.backdrop {
+  background-color: 
+#0d0d0d;
+  height: 941px;
+  left: 0;
+  right:0;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+}
+
+/* .ellipse-1 {
+  height: 502px;
+  left: 984px;
+  position: absolute;
+  top: 660px;
+  width: 671px;
+} */
+
+.img-group {
+  height: 935px;
+  left: 185px;
+  position: absolute;
+  top: 6px;
+  width: 1248px;
+}
+
+.daco_3269698-1 {
+  height: 935px;
+  left: 0;
+  mix-blend-mode: overlay;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1169px;
+}
+
+.novu-removebg-preview-1 {
+  height: 612px;
+  left: 768px;
+  object-fit: cover;
+  position: absolute;
+  top: 189px;
+  width: 480px;
+}
+
+.x3-bottle-1 {
+  height: 758px;
+  left: 552px;
+  object-fit: cover;
+  position: absolute;
+  top: 105px;
+  width: 500px;
+}
+
+.adLogo {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 291px;
+  left: 72px;
+  position: absolute;
+  top: 214px;
+  width: 628px;
+}
+
+.welcome {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l2);
+  font-weight: 500;
+  left: 121px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 130px;
+  width: 416px;
+}
+
+.explore-a-brand-made-just-for-you {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m2);
+  font-weight: 500;
+  left: 121px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 546px;
+  width: 416px;
+}
+
+.arrow-1 {
+  height: 62px;
+  left: 677px;
+  position: absolute;
+  top: 840px;
+  width: 23px;
+}
